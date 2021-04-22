@@ -27,7 +27,7 @@ const Dashboard: React.FC = () => {
     return false; // não é celular
   }
   if (checkDevice()) {
-    alert('Nao temos ainda uma versao mobile disponivel, acessa pelo navegador de seu computador para uma melhor experiencia');
+    alert('Nao temos ainda uma versao mobile disponivel, acesse pelo navegador de seu computador para uma melhor experiencia');
   }
   return (
     <Container>

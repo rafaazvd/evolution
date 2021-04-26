@@ -14,14 +14,11 @@ const Dashboard: React.FC = () => {
         <a href="/" className="header-button">
           Home
         </a>
-        <a href="/" className="header-button">
+        <a href="/solutions" className="header-button">
         Soluções
         </a>
-        <a href="/" className="header-button">
+        <a href="/about" className="header-button">
         Sobre nós
-        </a>
-        <a href="/" className="header-button">
-        Clientes 
         </a>
         <a href="/" className="header-button">
         Blog

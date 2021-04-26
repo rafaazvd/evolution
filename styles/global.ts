@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
+
 export default createGlobalStyle`
 :root {
   --text100: #248f8f;
@@ -65,10 +66,11 @@ export default createGlobalStyle`
   HomeStyles
    */
   .div-home-1 {
-    margin-top: 13%;
     background-color: #e6f2ff;
     padding: 17px;
     height: 274px;
+    padding-top: 18%;
+    padding-bottom: 17%;
     h1 {
       color: var(--text100);
       margin: 7px;
@@ -128,6 +130,106 @@ export default createGlobalStyle`
     margin-top: 72px;
     width: 50%;
     margin-left: 20%;
+  }
+
+/**
+Solutions page
+ */
+ .div-solutions-1 {
+   padding: 92px;
+   padding-top: 20%;
+   padding-bottom: 22%;
+   p {
+     color: #5A513F;
+     margin: 4%;
+     font-weight: 900;
+     font-size: 20px;
+   }
+   div {
+     background-color: #ffff;
+     border-radius: 12px;
+     padding: 20px;
+     margin-bottom: 17px;
+
+     h3 {
+       margin: 12px;
+     }
+     ul {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       li {
+         margin-bottom: 20px;
+       }
+     }
+   }
+
+ }
+
+ /**
+ About page
+ */
+ .div-about-1 {
+    background-color: #fff;
+    padding: 72px;
+    padding-top: 18%;
+    padding-bottom: 117%;
+  }
+  .div-about-2 {
+    background-color: #F1D1E0;
+    padding: 77px;
+    border-radius: 17px;
+    margin-bottom: 156px;
+
+    p {
+      margin: 33px;
+      text-align: justify;
+      font-weight: 900;
+      font-size: 22px;
+      color: #2B423F;
+    }
+  }
+  .div-about-3 {
+    color: #000;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: row;
+  }
+  .about-div-img {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+  }
+  .about-img-employee {
+    border: solid 3px #55DF57;
+    border-radius: 50%;
+    width: 100%;
+    height: 60%;
+  }
+  .div-about-4 {
+    padding: 2%;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+  }
+  .span-name {
+    margin: 2% 2% 2% 0;
+    font-weight: 700;
+    color: #525C5D;
+    font-size: 144%;
+  }
+  .span-sector {
+    margin: 0 0 2% 3%;
+    font-weight: 300;
+    color: #525C5D;
+    font-size: 100%;
+  }
+  .span-about {
+    width: 70%;
+    color: #000;
+    font-size: 120%;
   }
 
 `

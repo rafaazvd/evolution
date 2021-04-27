@@ -53,6 +53,10 @@ export const Img8 = styled.img`
 export const TextFooter = styled.text`
   color: #ffffff;
   font-size: 14px;
+  a {
+    text-decoration: none;
+    color: #273746;
+  }
 `;
 
 export const SmallFooter = styled.small`

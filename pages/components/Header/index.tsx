@@ -23,7 +23,7 @@ const Dashboard: React.FC = () => {
         <a href="/" className="header-button">
         Blog
         </a>
-        <a href="/" className="header-button">
+        <a href="/contact" className="header-button">
         Contato
         </a>
       </div>

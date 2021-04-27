@@ -15,18 +15,14 @@ interface Props {
 }
 
 export const Container = styled.div`
-position: absolute;
+position: fixed;
 display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-between;
-width: 100%;
-background-color: #B9DAE8;
+flex-direction: column;
+padding: 1px;
+width: 70%;
+height: 100vh;
+background-color: #B9D;
 top: 0;
-
-@media(max-width: 1017px) {
-  width: 100%;
-  }
 `;
 
 export const RightComponent = styled.div`
@@ -39,12 +35,9 @@ export const RightComponent = styled.div`
 `;
 
 export const LogoImg = styled.img`
-  width: 3%;
+  width: 15%;
+  margin: 7%;
   margin-left: 4%;
-
-  @media(max-width: 1017px) {
-    width: 10%;
-  }
 
 `;
 

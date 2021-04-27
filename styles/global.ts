@@ -40,6 +40,7 @@ export default createGlobalStyle`
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
   }
 
@@ -52,6 +53,47 @@ export default createGlobalStyle`
     align-items: center;
     justify-content: center;
     border: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    flex-direction: row;
+    :hover
+    {
+      opacity:1;
+      color: #ffd;
+      border: solid 2px #dddd;
+    }
+  }
+  /**
+  Responsive
+   */
+
+  .div-button-responsive {
+    position: absolute;
+    width: 100%;
+    padding: 22px;
+    padding-top: 72px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-responsive-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-responsive-header {
+    position: fixed;
+    
+  }
+
+  .header-button-responsive {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    color: #000;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     cursor: pointer;
     :hover
@@ -174,6 +216,14 @@ Solutions page
     padding: 72px;
     padding-top: 18%;
     padding-bottom: 117%;
+
+    h3 {
+      padding-bottom: 22px;
+      font-weight: 800;
+      font-size: 173%;
+      color: #535348;
+      text-align: center;
+    }
   }
   .div-about-2 {
     background-color: #F1D1E0;
@@ -191,31 +241,30 @@ Solutions page
   }
   .div-about-3 {
     color: #000;
-    border-radius: 17px;
     display: flex;
     flex-direction: row;
   }
   .about-div-img {
-    width: 30%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1%;
   }
   .about-img-employee {
-    border: solid 3px #55DF57;
     border-radius: 50%;
-    width: 100%;
-    height: 60%;
+    width: 90%;
+    
   }
   .div-about-4 {
-    padding: 2%;
-    padding-top: 130px;
+    padding: 1%;
+    padding-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
   }
   .span-name {
-    margin: 2% 2% 2% 0;
+    margin: 0 2% 2% 0;
     font-weight: 700;
     color: #525C5D;
     font-size: 144%;
@@ -230,6 +279,34 @@ Solutions page
     width: 70%;
     color: #000;
     font-size: 120%;
+  }
+  .div-about-5 {
+    margin-top: 33px;
+    padding: 177px;
+    border-radius: 20px;
+    background-color: #EEEEEC;
+    border: solid 1px #000;
+    color: #34495E;
+
+    div {
+      width: 77%;
+      margin: 33px;
+    }
+
+    h1 {
+      margin: 7px;
+      position: absolute;
+      margin-top: -7%;
+      margin-left: -7%;
+    }
+
+    span {
+      font-weight: 900;
+      font-size: 22px;
+    }
+    small {
+      font-size: 20px;
+    }
   }
 
 `

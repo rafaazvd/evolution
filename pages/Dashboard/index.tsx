@@ -5,34 +5,25 @@ import {
 } from './styles';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import SideBar from '../components/SideBar';
 
 // declare const navigator: any;
 
 const Dashboard: React.FC = () => {
-  // useEffect(() => {
-  //   // window is accessible here.
-  //   console.log("navigator.userAgent", navigator);
-  // }, []);
-  // function checkDevice() {
-  //   if (navigator.userAgent.match(/Android/i)
-  //   || navigator.userAgent.match(/webOS/i)
-  //   || navigator.userAgent.match(/iPhone/i)
-  //   || navigator.userAgent.match(/iPad/i)
-  //   || navigator.userAgent.match(/iPod/i)
-  //   || navigator.userAgent.match(/BlackBerry/i)
-  //   || navigator.userAgent.match(/Windows Phone/i)
-  //   ) {
-  //     return true; // está utilizando celular
-  //   }
+  let w = null;
+  if (typeof window !== "undefined") {
+    w = window.screen.availWidth
+  }
 
-  //   return false; // não é celular
-  // }
-  // if (!checkDevice()) {
-  //   alert('Nao temos ainda uma versao mobile disponivel, acesse pelo navegador de seu computador para uma melhor experiencia');
-  // }
+  const maxWidth = 576; // limite do dispositivo
+	const availWidth = w; // tamanho atual
   return (
     <Container>
-      <Header />
+      <div>
+      {
+        availWidth < maxWidth ? <SideBar /> : <Header />
+      }
+      </div>
       <div className="div-home-1">
         <h1>
         Ajudamos bons negócios a evoluírem seu alcance e lucro

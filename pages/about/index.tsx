@@ -12,19 +12,19 @@ const Solutions: React.FC = () => {
     {
       name: 'Rafael Azevedo',
       about: 'Bacharel em Ciências da Computação, Desenvolvedor Sênior FullStack com Dominio em Arquitetura DDD e TDD e Boas práticas  de programação alinhadas aos Princípios SOLID',
-      img: '/rafa.jpeg',
+      img: '/rafa1.png',
+      sector: 'CTO'
+    },
+    {
+      name: 'Rafael Azevedo',
+      about: 'Bacharel em Ciências da Computação, Desenvolvedor Sênior FullStack com Dominio em Arquitetura DDD e TDD e Boas práticas  de programação alinhadas aos Princípios SOLID',
+      img: '/rafa1.png',
       sector: 'Desenvolvimento Web'
     },
     {
       name: 'Rafael Azevedo',
       about: 'Bacharel em Ciências da Computação, Desenvolvedor Sênior FullStack com Dominio em Arquitetura DDD e TDD e Boas práticas  de programação alinhadas aos Princípios SOLID',
-      img: '/rafa.jpeg',
-      sector: 'Desenvolvimento Web'
-    },
-    {
-      name: 'Rafael Azevedo',
-      about: 'Bacharel em Ciências da Computação, Desenvolvedor Sênior FullStack com Dominio em Arquitetura DDD e TDD e Boas práticas  de programação alinhadas aos Princípios SOLID',
-      img: '/rafa.jpeg',
+      img: '/rafa1.png',
       sector: 'Desenvolvimento Web'
     },
   ]);
@@ -44,6 +44,11 @@ const Solutions: React.FC = () => {
             Sabemos que é humanamente impossível entender bem de tudo, e, desde a primeira revolução industrial, vemos que a divisão do trabalho traz maior eficiência e melhor resultado final para os negócios. Por isso, contamos com uma equipe interna estrategicamente selecionada composta por 7 profissionais de diferentes áreas do conhecimento; com idades entre 21 e 56 anos, média de 32; naturais das regiões Sul, Centro-Oeste e Norte do Brasil; com experiências em 3 continentes e 10 países diferentes. Além disso, também contamos com uma equipe de consultores associados especialistas em outras 6 diferentes áreas dos negócios. Vem crescer conosco. Foque no que você faz de melhor enquanto nós te ajudamos com todo o resto.
             </p>
          </div>
+
+         <h3>
+         Equipe - Setor:
+
+         </h3>
      
         {
           data.map((employee: any) => 
@@ -66,6 +71,34 @@ const Solutions: React.FC = () => {
             </div>
           )
         }
+        <div className="div-about-5">
+          <h1>
+          Consultores Especializados Associados:
+          </h1>
+          <div>
+            <span>Antonio - Gestão Empresarial: </span>
+            <small>
+            Desenvolvimento de Business Plan, MVP, Análise SWOT, Análise 5W2H, Canvas, Como Elaborar Fluxo de Caixa, Desenvolvimento de Branding e Posicionamento
+            </small>
+          </div>
+          <div>
+            <span>Álvaro - Contabilidade </span>
+            <small>
+            Geral e Consultoria em Planejamento e Gestão Financeira Pessoal e Corporativa
+            </small>
+          </div>
+          <div>
+            <span>Bruno Max - Direito Empresarial </span>
+            <small>e Societário</small>
+          </div>
+          <div>
+            <span>Alessandro - Vendas</span>
+            <small>
+            , Consultoria e Treinamento Completo
+            </small>
+          </div>
+          <a  href = "mailto: rafa.azevedo7777@gmail.com" > Enviar e-mail </a>
+        </div>
      </div>
       <Footer />
     </Container>

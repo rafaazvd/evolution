@@ -28,7 +28,7 @@ const Dashboard: React.FC = () => {
                 <FiFacebook size={18} color="#ffffff" />
             </a>
             <a
-            href="https://www.instagram.com/offlet_app/"
+            href="https://instagram.com/evolutioncwbworld"
             >
                 <FiInstagram size={18} color="#ffffff" />
             </a>
@@ -43,6 +43,7 @@ const Dashboard: React.FC = () => {
         <RightComponent>
             <TextFooter>Termos de Uso</TextFooter>
             <TextFooter>Política de Privacidade</TextFooter>
+            <TextFooter><a  href = "mailto: rafa.azevedo7777@gmail.com" > Enviar e-mail </a></TextFooter>
         </RightComponent>
 
       </Footer>

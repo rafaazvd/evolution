@@ -6,4 +6,5 @@ width: 100%;
 background-color: #e6f2ff;
 `;
 
+
 export default Container;

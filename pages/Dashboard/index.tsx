@@ -6,10 +6,14 @@ import {
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SideBar from '../components/SideBar';
+import { redirect } from 'next/dist/next-server/server/api-utils';
 
 // declare const navigator: any;
 
 const Dashboard: React.FC = () => {
+  const handleRedirect = () => {
+    window.location.href = 'solutions';
+  }
   let w = null;
   if (typeof window !== "undefined") {
     w = window.screen.availWidth
@@ -51,7 +55,7 @@ const Dashboard: React.FC = () => {
         mais consolidadas às mais inovadoras. Conte com nossa equipe especializada. Foque no que
         você faz de melhor, enquanto te ajudamos com todo o resto.
         </p>
-        <button>
+        <button className="btn-home-products" onClick={() => handleRedirect()}>
           Produtos
         </button>
       </div>

@@ -32,23 +32,23 @@ const Dashboard: React.FC = () => {
             <div className="div-button-responsive">
                 <a href="/" className="header-button-responsive">
                     <AiFillHome size={20} />
-                Home
+                {'  _'}Home
                 </a>
                 <a href="/solutions" className="header-button-responsive">
                 <IoMdBuild size={20} />
-                Soluções
+                {'  _'}Soluções
                 </a>
                 <a href="/about" className="header-button-responsive">
                 <FcAbout size={20} />
-                Sobre nós
+                {'  _'}Sobre nós
                 </a>
                 <a href="/" className="header-button-responsive">
                 <FaBlog size={20} />
-                Blog
+                {'  _'}Blog
                 </a>
                 <a href="/contact" className="header-button-responsive">
                 <GrContact size={20} />
-                Contato
+                {'  _'}Contato
                 </a>
             </div>
      

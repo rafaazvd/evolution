@@ -5,6 +5,11 @@ position: fixed;
 width: 100%;
 height: 25%;
 bottom: 0;
+
+@media(max-width: 540px) {
+    position: relative;
+    height: 270px;
+  }
 `;
 
 
@@ -30,6 +35,16 @@ export const CenterComponent = styled.div`
     a  {
         margin-right: 35px;
     }
+    @media(max-width: 540px) {
+      height: 44%;
+      padding-top: 1%;
+      margin-left: 30%;
+      flex-direction: column;
+      a  {
+        margin-right: 1px;
+        margin-bottom: 25px;
+    }
+    }
 `;
 
 export const RightComponent = styled.div`
@@ -47,8 +62,15 @@ export const RightComponent = styled.div`
 
 
 export const Img8 = styled.img`
-  width: 4%;
+  width: 7%;
   height: 27%;
+  margin-left: 20px;
+  @media(max-width: 540px) {
+    position: absolute;
+    width: 70px;
+    height: 67px;
+    
+  }
 `;
 export const TextFooter = styled.text`
   color: #ffffff;
@@ -63,6 +85,9 @@ export const SmallFooter = styled.small`
   position: absolute;
   color: #ffff;
   bottom: 0;
+  @media(max-width: 540px) {
+    margin-left: -20px;
+  }
 `;
 
 export const Enrollment = styled.button`
@@ -77,6 +102,11 @@ export const Enrollment = styled.button`
   margin-left: 40%;
   span {
     font-size: 160%;
+  }
+  @media(max-width: 540px) {
+    margin-top: -16px;
+    width: 50%;
+    margin-left: 27%;
   }
 `;
 

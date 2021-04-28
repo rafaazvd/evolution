@@ -119,6 +119,10 @@ export default createGlobalStyle`
       margin-left: 15%;
       font-size: 30px;
     }
+    @media(max-width: 540px) {
+      padding-bottom: 77%;
+    }
+    
   }
   .div-span {
     margin-top: 5%;
@@ -134,14 +138,21 @@ export default createGlobalStyle`
       color: var(--primary700);
       margin-left: 60%;
     }
+    @media(max-width: 540px) {
+      width: 81%;
+      small {
+      margin-left: 50%;
+    }
+    }
   }
   .div-home-2 {
     background-color: #ffe6ff;
     padding: 10%;
-  }
-  p {
+    p {
     color: var(--primary200);
   }
+  }
+  
   button {
     padding: 12px;
     background-color: #ffff;
@@ -153,6 +164,9 @@ export default createGlobalStyle`
   .title-home-2 {
     color: var(--text100);
     margin-bottom: 40px;
+    @media(max-width: 540px) {
+      font-size: 23px;
+    }
   }
   .div-home-3 {
     background-color: #e6f2ff;
@@ -172,6 +186,9 @@ export default createGlobalStyle`
     margin-top: 72px;
     width: 50%;
     margin-left: 20%;
+    @media(max-width: 540px) {
+      margin-bottom: 22px;
+    }
   }
 
 /**
@@ -204,6 +221,24 @@ Solutions page
          margin-bottom: 20px;
        }
      }
+     
+   }
+   @media(max-width: 540px) {
+     div {
+       width: 300px;
+       margin-left: -40px;
+     }
+     p {
+     margin: 1%;
+     font-weight: 500;
+     font-size: 17px;
+   }
+   h3 {
+       margin: 1px;
+     }
+     h1 {
+       font-size: 24px;
+     }
    }
 
  }
@@ -215,7 +250,7 @@ Solutions page
     background-color: #fff;
     padding: 72px;
     padding-top: 18%;
-    padding-bottom: 117%;
+    padding-bottom: 27%;
 
     h3 {
       padding-bottom: 22px;
@@ -223,6 +258,11 @@ Solutions page
       font-size: 173%;
       color: #535348;
       text-align: center;
+    }
+    @media(max-width: 540px) {
+      padding: 17px;
+      padding-top: 18%;
+      padding-bottom: 20%;
     }
   }
   .div-about-2 {
@@ -238,6 +278,15 @@ Solutions page
       font-size: 22px;
       color: #2B423F;
     }
+    @media(max-width: 540px) {
+      border: solid 1px #000;
+      padding: 22px;
+      p {
+        margin: 13px;
+        font-weight: 500;
+        font-size: 18px;
+      }
+    }
   }
   .div-about-3 {
     color: #000;
@@ -250,10 +299,16 @@ Solutions page
     align-items: center;
     justify-content: center;
     padding: 1%;
+    @media(max-width: 540px) {
+      width: 120%;
+    }
   }
   .about-img-employee {
     border-radius: 50%;
-    width: 90%;
+    max-width: 122px;
+    max-width: 122px;
+    max-height: 122px;
+    min-height: 122px;
     
   }
   .div-about-4 {
@@ -268,17 +323,27 @@ Solutions page
     font-weight: 700;
     color: #525C5D;
     font-size: 144%;
+    @media(max-width: 540px) {
+      font-size: 12px;
+    }
   }
   .span-sector {
     margin: 0 0 2% 3%;
     font-weight: 300;
     color: #525C5D;
     font-size: 100%;
+    @media(max-width: 540px) {
+      font-size: 12px;
+    }
   }
   .span-about {
     width: 70%;
     color: #000;
     font-size: 120%;
+    @media(max-width: 540px) {
+      width: 98%;
+      font-size: 10px;
+    }
   }
   .div-about-5 {
     margin-top: 33px;
@@ -306,6 +371,22 @@ Solutions page
     }
     small {
       font-size: 20px;
+    }
+    @media(max-width: 540px) {
+      padding: 66px;
+      div {
+        width: 100%;
+        margin: 20px;
+      }
+      h1 {
+        font-size: 15px;
+      }
+      span {
+        font-size: 15px;
+      }
+      small {
+        font-size: 15px;
+      }
     }
   }
 

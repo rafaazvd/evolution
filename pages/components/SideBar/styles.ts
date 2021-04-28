@@ -25,51 +25,11 @@ background-color: #B9D;
 top: 0;
 `;
 
-export const RightComponent = styled.div`
-    display: flex;
-    justify-content: space-between;
-    width: 25%;
-    padding: 0;
-    align-items: center;
-    margin: 7px;
-`;
-
 export const LogoImg = styled.img`
   width: 15%;
   margin: 7%;
   margin-left: 4%;
 
-`;
-
-
-export const AreaEnrollment = styled.button`
-  background-color: #e83c4d;
-  border: none;
-  color: #ffffff;
-  border-radius: 4px;
-  padding: 5px;
-`;
-
-export const AreaStore = styled.button`
-  background-color: #212e63;
-  border: none;
-  color: #ffffff;
-  border-radius: 4px;
-  padding: 5px;
-  span {
-    font-size: 100%;
-  }
-
-`;
-export const Ptbr = styled.img`
-  width: 17%;
-  height: 7.4%;
-
-  
-  @media(min-width: 1900px) {
-    width: 3%;
-    height: 2%;
-  }
 `;
 
 

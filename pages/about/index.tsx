@@ -5,6 +5,7 @@ import {
 } from './styles';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import SideBar from '../components/SideBar';
 
 
 const Solutions: React.FC = () => {
@@ -16,24 +17,28 @@ const Solutions: React.FC = () => {
       sector: 'CTO'
     },
     {
-      name: 'Rafael Azevedo',
-      about: 'Bacharel em Ciências da Computação, Desenvolvedor Sênior FullStack com Dominio em Arquitetura DDD e TDD e Boas práticas  de programação alinhadas aos Princípios SOLID',
-      img: '/rafa1.png',
-      sector: 'Desenvolvimento Web'
-    },
-    {
-      name: 'Rafael Azevedo',
-      about: 'Bacharel em Ciências da Computação, Desenvolvedor Sênior FullStack com Dominio em Arquitetura DDD e TDD e Boas práticas  de programação alinhadas aos Princípios SOLID',
-      img: '/rafa1.png',
-      sector: 'Desenvolvimento Web'
+      name: 'Gustavo Mantagute',
+      about: 'Mobilizador social há mais de uma década e comunicador visual com dezenas de trabalhos já realizados; estudos acadêmicos e autodidatas em Ciências Sociais e Design; graduando em Comércio Exterior.',
+      img: '/manta.png',
+      sector: 'Comunicação Visual'
     },
   ]);
 
-  
+  let w = null;
+  if (typeof window !== "undefined") {
+    w = window.screen.availWidth
+  }
+
+  const maxWidth = 576;
+	const availWidth = w;
 
   return (
     <Container>
-      <Header />
+      <div>
+      {
+        availWidth < maxWidth ? <SideBar /> : <Header />
+      }
+      </div>
       <div className="div-about-1">
          <div className="div-about-2">
             <h1>- Sobre nós:</h1>

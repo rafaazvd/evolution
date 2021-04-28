@@ -5,13 +5,24 @@ import {
 } from './styles';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import SideBar from '../components/SideBar';
 
 
 const Solutions: React.FC = () => {
-  
+  let w = null;
+  if (typeof window !== "undefined") {
+    w = window.screen.availWidth
+  }
+
+  const maxWidth = 576;
+	const availWidth = w;
   return (
     <Container>
-      <Header />
+      <div>
+      {
+        availWidth < maxWidth ? <SideBar /> : <Header />
+      }
+      </div>
       <div className="div-solutions-1">
         <div>
             <h1>Panorama:</h1>

@@ -19,8 +19,8 @@ const Dashboard: React.FC = () => {
     w = window.screen.availWidth
   }
 
-  const maxWidth = 576; // limite do dispositivo
-	const availWidth = w; // tamanho atual
+  const maxWidth = 576;
+	const availWidth = w;
   return (
     <Container>
       <div>
@@ -70,7 +70,7 @@ const Dashboard: React.FC = () => {
         <br />
         <br />
         <br />
-        <a href="/">
+        <a href="/about">
         - Sobre nós:
         </a>
         <br />

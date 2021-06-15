@@ -7,7 +7,9 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Revolution</title>
+        <title>
+        Evolution
+        </title>
       </Head>
 
       <Dashboard />

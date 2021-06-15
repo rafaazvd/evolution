@@ -27,7 +27,7 @@ const Dashboard: React.FC = () => {
             open && 
         <Container>
             <div className="logo-responsive-1">
-            <LogoImg src="/raio.png" />
+            <LogoImg src="/favicon.png" />
             </div>
             <div className="div-button-responsive">
                 <a href="/" className="header-button-responsive">

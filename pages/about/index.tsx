@@ -13,13 +13,25 @@ const Solutions: React.FC = () => {
     {
       name: 'Rafael Azevedo',
       about: 'Bacharel em Ciências da Computação, Desenvolvedor Sênior FullStack com Dominio em Arquitetura DDD e TDD e Boas práticas  de programação alinhadas aos Princípios SOLID',
-      img: '/rafa1.png',
+      img: '/rafa3.png',
       sector: 'CTO'
     },
     {
       name: 'Gustavo Mantagute',
       about: 'Mobilizador social há mais de uma década e comunicador visual com dezenas de trabalhos já realizados; estudos acadêmicos e autodidatas em Ciências Sociais e Design; graduando em Comércio Exterior.',
       img: '/manta.png',
+      sector: 'Comunicação Visual'
+    },
+    {
+      name: 'Nicolas Leviski',
+      about: 'Estudante e profissional de negócios desde 2015. Envolvido desde a adolescência com trabalhos filantrópicos voluntários. 3 vezes coordenador estadual do Paraná da maior organização estudantil do mundo, coordenando de 15 a 112 voluntários no estado. 3 anos consecutivos premiado como um dos principais coordenadores da organização no país, uma vez premiado por um dos 3 melhores eventos estudantis do Brasil no ano. Primeiro brasileiro representante universitário da mais antiga e tradicional fundação de estudos econômicos pró livre mercado dos Estados Unidos, já sendo premiado como um dos 10 principais entre mais de 100 no mundo na época, ganhando a viagem para a última edição da maior conferência de economia do planeta, realizada por essa fundação nos EUA. Citado em matéria da UOL em 2016, aos 21 anos, como um dos 4 principais jovens mobilizadores sociais do Brasil por conta de trabalhos realizados na área. Grande experiência em gestão de projetos e equipes, organização de eventos e mídias sociais.',
+      img: '/nick.jpeg',
+      sector: 'Comunicação Visual'
+    },
+    {
+      name: 'Alvaro Moraes',
+      about: 'Curitibano, contador e empreendedor, nascido em 3 de novembro de 1982. Formado em Ciências Contábeis pela FAE Business School, empreendeu no ramo de alimentação de 2009 a 2011, foi presidente da 1º Câmara de Arbitragem, Mediação e Conciliação Societária do Brasil, um dos idealizadores da Cooperativa Brasileira de Contadores, entusiasta de criptomoedas, foi aluno do RenovaBR, escola para políticos, foi candidato a Vereador pelo Partido Novo em 2020 na capital Paranaense e atualmente é pós graduando em Escola Austríaca de Economia pelo Instituto Mises e aluno da Fundação Brasil Novo.',
+      img: '/alvaro.png',
       sector: 'Comunicação Visual'
     },
   ]);

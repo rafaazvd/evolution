@@ -9,7 +9,7 @@ const Dashboard: React.FC = () => {
   
   return (
     <Container>
-      <LogoImg src="/raio.png" />
+      <LogoImg src="/favicon.png" />
       <div className="div-button">
         <a href="/" className="header-button">
           Home

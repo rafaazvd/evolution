@@ -20,7 +20,7 @@ const Dashboard: React.FC = () => {
         <span>Cadastre-se</span>
       </Enrollment>
       <Footer>
-        <Img8 src="raio.png" />
+        <Img8 src="favicon.png" />
         <CenterComponent>
             <a
             href="https://www.instagram.com/offlet_app/"
